@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://kit.fontawesome.com/2ed3ac4528.css" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/2ed3ac4528.js" crossorigin="anonymous"></script>
+    <title>Project 1</title>
+</head>
+<body>
+    <header>
+    <nav class="head">
+        <div class="logo">Portfolio</div>
+       <ul>
+        <li><a href="">Home</a> </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#proj">Projects</a></li>
+        <li><a href="#contactme">Contact</a></li>
+       </ul>
+    </nav>
+    </header>
+    <section class="main">
+        <div class="left">
+          <h1>Hello, My name is <span>Nilesh Srivastava</span> </h1>
+          <p>I am a<span>Student</span>,<br> and I am a <span>Web Developer</span> </p>
+        </div>
+        <div class="right">
+        <img id="propic" src="profile.jpeg" alt="Profile Picture" >
+        <div class="chat">
+            <button>Resume</button>
+        </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+      <div class="max-width">
+          <h1 class="about-main">ABOUT ME <left></left> </h1>
+          <p id="para1" style="font-size: 25px;">Here you will find more information about me, what I do, and list of my current skills in programming.</p>
+                 <h1 class="about-main">My Story</h1>
+                  <p id="para2" style="font-size: 25px;">I am currently pursuing my B.Tech from Harcourt Butler Technical University, kanpur and have completed my Higher Secondary Education in 2019 from India Indian Public Inter College and High School from S S K Inter college in 2017.</p>
+            
+      </div>
+  </section>
+    <div class="topic">
+        <h1>Skills</h1>
+    </div>
+    
+    <div class="skills">
+       
+        <div class="firstcolumn">
+            <div class="bar">
+                <label for="file">HTML</label>
+                <progress id="file" max="100" value="95">95%</progress>
+            </div>
+            <div class="bar">
+                <label for="file">CSS</label>
+                <progress id="file" max="100" value="85">85%</progress>
+            </div>
+            <div class="bar">
+                <label for="file">JavaScript</label>
+                <progress id="file" max="100" value="70">70%</progress>
+            </div>
+        </div>
+        <div class="secondcolumn">
+            <div class="bar">
+                <label for="file">DSA</label>
+                <progress id="file" max="100" value="60">60%</progress>
+            </div>
+            <div class="bar">
+                <label for="file">Java</label>
+                <progress id="file" max="100" value="90">90%</progress></div>
+            <div class="bar">
+                <label for="file">C++</label>
+                <progress id="file" max="100" value="80">80%</progress></div>
+        </div>
+    </div>
+    <br>
+    
+    <div class="projects" style="background-color: #dbe9fa;">
+      <div class="topic">
+        <h1>Projects</h1>
+    </div>
+    <br>
+        
+        <div class="container">
+            <img src="task1.png" alt="QuizApp">
+            <div class="subcontainer">
+                <h2>Landing Page</h2>
+                <p>A landing page is a standalone web page that a person "lands" on after clicking through from an email, ad, or other digital location. This website is made using HTML and CSS </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="subcontainer">
+                <h2>Portfolio</h2>
+                <p>This is a portfolio website designed using HTML, CSS and Javascript. A portfolio website is a type of website that showcases a person's professional work, skills, and accomplishments. It serves as a digital resume and a platform for self-promotion.</p>
+                
+            </div>
+            <img src="task2.png" alt="Count Down">
+        </div>
+        <div class="container">
+            <img src="task3.png" alt="Calculator">
+            <div class="subcontainer">
+                <h2>Calculator</h2>
+                <p>It  is a simple and easy-to-use calculator that allows users to perform mathematical calculations. It can be a great way to perform mathematical calculations on the go. It is also a valuable tool for students, professionals, and anyone who needs to perform quick and easy calculations.</p>
+            </div>
+        </div>
+    </div>
+  
+    <!-- contact section -->
+    <section class="contactme" id="contactme">
+      <div class="max-width">
+          <h1 class="contactme-main">CONTACT ME</h1>
+          <div class="contain">
+              <form>
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Enter First Name">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Enter Last Name">
+                  <label for="email">E-mail</label>
+                  <input type="text" id="email" name="email" placeholder="abc@xyz.com">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something" style="height:150px"></textarea>
+                  <input type="submit" value="Submit">
+              </form>
+          </div>
+      </div>
+  </section>
+    <!-- links section -->
+    <section>
+    <div class="links" style="width: 100%;">
+        <div class="first">
+            <h2>Menu</h2>
+            <p>Home</p>
+            <p>Services</p>
+            <p>Privacy Policy</p>
+        </div>
+        <div class="second">
+            <h2>Social Links</h2>
+            <ul>
+                <li><a href=""><i class="fa-brands fa-github"></i>Github</a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                
+            </ul>
+        </div>  
+        <div class="third">
+            <h2>Email</h2>
+            <p>nileshsrivastava8948@gmail.com</p>
+        </div> 
+    </div>
+</section>
+    <footer style="background-color: #edf1fd;">
+    <p style="color: black;">Copyright &copy 2023 . All Rights Reserved.</p>
+    
+    </footer>    
+</body>
+</html>
